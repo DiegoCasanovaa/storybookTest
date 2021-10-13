@@ -1,0 +1,31 @@
+.card-container{
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-align: center;  
+    align-items: center;
+    justify-items: center;
+    box-shadow: 5px 10px 8px #00000063;
+}
+
+.card-container > p{
+    height: min-content;
+    font-weight: 400;
+    font-size: 2.8vh;
+}
+
+.campania{
+    grid-area: campania;
+}
+
+.contactos{
+    grid-area:  contactos;
+}
+
+.sender-scoring{
+    grid-area: sender-scoring;
+}
